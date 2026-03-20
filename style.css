@@ -1494,3 +1494,381 @@ swiper-slide {
     max-width: 520px;
   }
 }
+
+/* ===================================================
+   GOOGLE PAGE - TABLET BREAKPOINT
+=================================================== */
+@media (min-width: 701px) and (max-width: 1024px) {
+  body.google-page .container {
+    display: flex !important;
+  }
+
+  body.google-page .sidebar {
+    display: flex !important;
+    width: 260px;
+    padding: 1rem;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  body.google-page .sidebar-content {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  body.google-page .name-banner {
+    margin-top: 1rem;
+  }
+
+  body.google-page .name-banner h1 {
+    font-size: 2rem;
+  }
+
+  body.google-page .project-page {
+    display: flex !important;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    padding: 2.5rem 1.5rem 4rem;
+    gap: 2rem;
+  }
+
+  body.google-page .project-block,
+  body.google-page .project-page img,
+  body.google-page .project-page iframe,
+  body.google-page .project-text,
+  body.google-page .image-caption {
+    max-width: 520px;
+  }
+
+  body.google-page .mobile-logo,
+  body.google-page .mobile-header,
+  body.google-page .mobile-footer,
+  body.google-page .project-mobile {
+    display: none !important;
+  }
+}
+
+/* ===================================================
+   MAZDA CX-9 PAGE - TABLET BREAKPOINT
+=================================================== */
+@media (min-width: 701px) and (max-width: 1024px) {
+  body.mazda-cx9-page .container {
+    display: flex !important;
+  }
+
+  body.mazda-cx9-page .sidebar {
+    display: flex !important;
+    width: 260px;
+    padding: 1rem;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  body.mazda-cx9-page .sidebar-content {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  body.mazda-cx9-page .name-banner {
+    margin-top: 1rem;
+  }
+
+  body.mazda-cx9-page .name-banner h1 {
+    font-size: 2rem;
+  }
+
+  body.mazda-cx9-page .project-page {
+    display: flex !important;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    padding: 2.5rem 1.5rem 4rem;
+    gap: 2rem;
+  }
+
+  body.mazda-cx9-page .project-block,
+  body.mazda-cx9-page .project-page img,
+  body.mazda-cx9-page .project-page iframe,
+  body.mazda-cx9-page .project-text,
+  body.mazda-cx9-page .image-caption {
+    max-width: 520px;
+  }
+
+  body.mazda-cx9-page .desktop-only {
+    display: block !important;
+  }
+
+  body.mazda-cx9-page .mobile-only,
+  body.mazda-cx9-page .mobile-logo,
+  body.mazda-cx9-page .mobile-header,
+  body.mazda-cx9-page .mobile-footer,
+  body.mazda-cx9-page .project-mobile {
+    display: none !important;
+  }
+}
+
+/* ===================================================
+   MAZDA ONLINE PAGE - TABLET BREAKPOINT
+=================================================== */
+@media (min-width: 701px) and (max-width: 1024px) {
+  body.mazda-online-page .container {
+    display: flex !important;
+  }
+
+  body.mazda-online-page .sidebar {
+    display: flex !important;
+    width: 260px;
+    padding: 1rem;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  body.mazda-online-page .sidebar-content {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  body.mazda-online-page .name-banner {
+    margin-top: 1rem;
+  }
+
+  body.mazda-online-page .name-banner h1 {
+    font-size: 2rem;
+  }
+
+  body.mazda-online-page .project-page {
+    display: flex !important;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    padding: 2.5rem 1.5rem 4rem;
+    gap: 2rem;
+  }
+
+  body.mazda-online-page .project-block,
+  body.mazda-online-page .project-page img,
+  body.mazda-online-page .project-page video,
+  body.mazda-online-page .project-text,
+  body.mazda-online-page .image-caption {
+    max-width: 520px;
+  }
+
+  body.mazda-online-page .mobile-logo,
+  body.mazda-online-page .mobile-header,
+  body.mazda-online-page .mobile-footer,
+  body.mazda-online-page .project-mobile {
+    display: none !important;
+  }
+}
+
+/* ===================================================
+   NYC PAGE - TABLET BREAKPOINT
+=================================================== */
+@media (min-width: 701px) and (max-width: 1024px) {
+  body.nyc-page .container {
+    display: flex !important;
+  }
+
+  body.nyc-page .sidebar {
+    display: flex !important;
+    width: 260px;
+    padding: 1rem;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  body.nyc-page .sidebar-content {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  body.nyc-page .name-banner {
+    margin-top: 1rem;
+  }
+
+  body.nyc-page .name-banner h1 {
+    font-size: 2rem;
+  }
+
+  body.nyc-page .project-page {
+    display: flex !important;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    padding: 2.5rem 1.5rem 4rem;
+    gap: 2rem;
+  }
+
+  body.nyc-page .project-block,
+  body.nyc-page .project-page img,
+  body.nyc-page .project-page iframe,
+  body.nyc-page .project-text,
+  body.nyc-page .image-caption {
+    max-width: 520px;
+  }
+
+  body.nyc-page .mobile-logo,
+  body.nyc-page .mobile-header,
+  body.nyc-page .mobile-footer,
+  body.nyc-page .project-mobile {
+    display: none !important;
+  }
+}
+
+/* ===================================================
+   SAFETY PAGE - TABLET BREAKPOINT
+=================================================== */
+@media (min-width: 701px) and (max-width: 1024px) {
+  body.safety-page .container {
+    display: flex !important;
+  }
+
+  body.safety-page .sidebar {
+    display: flex !important;
+    width: 260px;
+    padding: 1rem;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  body.safety-page .sidebar-content {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  body.safety-page .name-banner {
+    margin-top: 1rem;
+  }
+
+  body.safety-page .name-banner h1 {
+    font-size: 2rem;
+  }
+
+  body.safety-page .project-page {
+    display: flex !important;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    padding: 2.5rem 1.5rem 4rem;
+    gap: 2rem;
+  }
+
+  body.safety-page .project-block,
+  body.safety-page .project-page img,
+  body.safety-page .project-page video,
+  body.safety-page .project-text,
+  body.safety-page .image-caption {
+    max-width: 520px;
+  }
+
+  body.safety-page .mobile-logo,
+  body.safety-page .mobile-header,
+  body.safety-page .mobile-footer,
+  body.safety-page .project-mobile {
+    display: none !important;
+  }
+}
+
+/* ===================================================
+   TORRES PAGE - TABLET BREAKPOINT
+=================================================== */
+@media (min-width: 701px) and (max-width: 1024px) {
+  body.torres-page .container {
+    display: flex !important;
+  }
+
+  body.torres-page .sidebar {
+    display: flex !important;
+    width: 260px;
+    padding: 1rem;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  body.torres-page .sidebar-content {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  body.torres-page .name-banner {
+    margin-top: 1rem;
+  }
+
+  body.torres-page .name-banner h1 {
+    font-size: 2rem;
+  }
+
+  body.torres-page .project-page {
+    display: flex !important;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    padding: 2.5rem 1.5rem 4rem;
+    gap: 2rem;
+  }
+
+  body.torres-page .project-block,
+  body.torres-page .project-page img,
+  body.torres-page .project-page iframe,
+  body.torres-page .project-text,
+  body.torres-page .image-caption {
+    max-width: 520px;
+  }
+
+  body.torres-page .mobile-logo,
+  body.torres-page .mobile-header,
+  body.torres-page .mobile-footer,
+  body.torres-page .project-mobile {
+    display: none !important;
+  }
+}
+
+/* ===================================================
+   BNP PAGE - TABLET BREAKPOINT
+=================================================== */
+@media (min-width: 701px) and (max-width: 1024px) {
+  body.bnp-page .container {
+    display: flex !important;
+  }
+
+  body.bnp-page .sidebar {
+    display: flex !important;
+    width: 260px;
+    padding: 1rem;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  body.bnp-page .sidebar-content {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  body.bnp-page .name-banner {
+    margin-top: 1rem;
+  }
+
+  body.bnp-page .name-banner h1 {
+    font-size: 2rem;
+  }
+
+  body.bnp-page .project-page {
+    display: flex !important;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    padding: 2.5rem 1.5rem 4rem;
+    gap: 2rem;
+  }
+
+  body.bnp-page .project-block,
+  body.bnp-page .project-page img,
+  body.bnp-page .project-page video,
+  body.bnp-page .project-page iframe,
+  body.bnp-page .project-page swiper-container,
+  body.bnp-page .project-text,
+  body.bnp-page .image-caption {
+    max-width: 520px;
+  }
+
+  body.bnp-page .mobile-logo,
+  body.bnp-page .mobile-header,
+  body.bnp-page .mobile-footer,
+  body.bnp-page .project-mobile {
+    display: none !important;
+  }
+}
