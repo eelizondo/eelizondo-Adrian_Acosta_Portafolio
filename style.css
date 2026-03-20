@@ -1436,3 +1436,61 @@ swiper-slide {
     border-radius: 50%; /* Ensure the image is circular */
   }
 }
+
+/* ===================================================
+   INDEX PAGE - TABLET BREAKPOINT
+=================================================== */
+@media (min-width: 701px) and (max-width: 1024px) {
+  body.index-page .container {
+    display: flex !important;
+  }
+
+  body.index-page .sidebar {
+    display: flex !important;
+  }
+
+  body.index-page .gallery {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  body.index-page .mobile-logo,
+  body.index-page .mobile-header,
+  body.index-page .mobile-gallery,
+  body.index-page .mobile-footer {
+    display: none !important;
+  }
+
+  body.index-page .sidebar {
+    width: 260px;
+    padding: 1rem;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  body.index-page .sidebar-content {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  body.index-page .name-banner {
+    margin-top: 1rem;
+  }
+
+  body.index-page .name-banner h1 {
+    font-size: 2rem;
+  }
+
+  body.index-page .gallery {
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    padding: 2.5rem 1.5rem 4rem;
+    gap: 1.5rem;
+  }
+
+  body.index-page .gallery a,
+  body.index-page .gallery div,
+  body.index-page .gallery img {
+    max-width: 520px;
+  }
+}
